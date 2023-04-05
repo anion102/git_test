@@ -16,7 +16,6 @@ class Welcome2:
     def __init__(self, name='max'):    # argument with default value
         print(name)
 
-# hello = Welcome()
 welcome2 = Welcome2()
 welcome21 = Welcome2('jenny')
 
@@ -30,3 +29,4 @@ class Welcome3:
 
 hello = Welcome3()
 welcome3 = Welcome3('name','ah', name='jenny',age=27)
+# testing2 change  to merge into master

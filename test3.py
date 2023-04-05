@@ -1,0 +1,27 @@
+z = [5,3,9,7]
+z.insert(1,3)
+print(z)
+z.remove(3)
+# z.remove(3)
+print(z)
+z.sort()
+print(z)
+z.reverse()
+print(z)
+z.append(10)
+z.append(10)
+print(z)
+print(z.count(10))
+z.pop()
+print(z)
+
+q=[1,2,3,4,2]
+p =q.copy()
+q.clear()
+print(q)
+# del q
+# print(q)
+print(p)
+print(p.index(2))
+print(p.count(2))
+print(p.count(10))
